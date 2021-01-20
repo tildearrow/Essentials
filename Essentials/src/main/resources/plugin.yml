@@ -98,7 +98,7 @@ commands:
     usage: /<command> <warp>
   depth:
     description: States current depth, relative to sea level.
-    usage: /depth
+    usage: /<command>
   disposal:
     description: Opens a portable disposal menu.
     usage: /<command>
@@ -434,6 +434,9 @@ commands:
     description: List all warps or warp to the specified location.
     usage: /<command> <pagenumber|warp> [player]
     aliases: [warps]
+  warpinfo:
+    description: Finds location information for a specified warp.
+    usage: /<command> <warp>
   weather:
     description: Sets the weather.
     usage: /<command> <storm/sun> [duration]
