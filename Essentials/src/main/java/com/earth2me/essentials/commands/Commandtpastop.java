@@ -6,10 +6,10 @@ import org.bukkit.Server;
 
 import static com.earth2me.essentials.I18n.tl;
 
-public class Commandtpacancel extends EssentialsCommand {
+public class Commandtpastop extends EssentialsCommand {
 
-    public Commandtpacancel() {
-        super("tpacancel");
+    public Commandtpastop() {
+        super("tpastop");
     }
 
     /**

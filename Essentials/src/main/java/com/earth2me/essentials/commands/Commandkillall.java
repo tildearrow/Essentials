@@ -40,9 +40,9 @@ import static com.earth2me.essentials.I18n.tl;
 
 // This could be rewritten in a simpler form if we made a mapping of all Entity names to their types (which would also provide possible mod support)
 
-public class Commandremove extends EssentialsCommand {
-    public Commandremove() {
-        super("remove");
+public class Commandkillall extends EssentialsCommand {
+    public Commandkillall() {
+        super("killall");
     }
 
     @Override

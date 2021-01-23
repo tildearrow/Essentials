@@ -127,9 +127,10 @@ commands:
     description: Satisfy the hunger.
     usage: /<command> [player]
     aliases: [eat]
-  fix:
+  repair:
     description: Repairs the durability of one or all items.
     usage: /<command> [hand|all]
+    aliases: [fix]
   fly:
     description: Take off, and soar!
     usage: /<command> [player] [on|off]
@@ -427,9 +428,10 @@ commands:
   unlimited:
     description: Allows the unlimited placing of items.
     usage: /<command> <list|item|clear> [player]
-  v:
+  vanish:
     description: Hide yourself from other players.
     usage: /<command> [player] [on|off]
+    aliases: [v]
   warp:
     description: List all warps or warp to the specified location.
     usage: /<command> <pagenumber|warp> [player]
