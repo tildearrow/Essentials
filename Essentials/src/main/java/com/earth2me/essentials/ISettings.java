@@ -33,6 +33,8 @@ public interface ISettings extends IConf {
 
     String getChatFormat(String group);
 
+    String getWorldAlias(String world);
+
     int getChatRadius();
 
     int getNearRadius();
@@ -58,6 +60,8 @@ public interface ISettings extends IConf {
     Set<String> getSocialSpyCommands();
 
     boolean getSocialSpyListenMutedPlayers();
+
+    boolean isSocialSpyMessages();
 
     Set<String> getMuteCommands();
 
@@ -386,6 +390,8 @@ public interface ISettings extends IConf {
     boolean infoAfterDeath();
 
     boolean isRespawnAtBed();
+
+    boolean isUpdateCheckEnabled();
 
     enum KeepInvPolicy {
         KEEP,

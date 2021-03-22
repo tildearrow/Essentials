@@ -218,6 +218,9 @@ commands:
     description: Obtains the specified kit or views all available kits.
     usage: /<command> [kit] [player]
     aliases: [kits]
+  kitreset:
+    description: Resets the cooldown on the specified kit.
+    usage: /<command> <kit> [player]
   kittycannon:
     description: Throw an exploding kitten at your opponent.
     usage: /<command>
@@ -311,6 +314,10 @@ commands:
   seen:
     description: Shows the last logout time of a player.
     usage: /<command> <playername>
+    aliases: [alts]
+  sell:
+    description: Sells the item currently in your hand.
+    usage: /<command> <<itemname>|<id>|hand|inventory|blocks> [-][amount]
   sethome:
     description: Set your home to your current location.
     usage: /<command> [[player:]name]
@@ -323,6 +330,9 @@ commands:
   showkit:
     description: Show contents of a kit.
     usage: /<command> <kitname>
+  editsign:
+    description: Edits a sign in the world.
+    usage: /<command> <set/clear/copy/paste> [line number] [text]
   skull:
     description: Set the owner of a player skull
     usage: /<command> [owner]
